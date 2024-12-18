@@ -1,0 +1,529 @@
+.tg-header__area-four.sticky-menu {
+    margin-top: 0;
+}
+
+.brand-item img {
+    opacity: 0.3;
+}
+
+.brand-item:hover img {
+    opacity: 1;
+}
+
+.services__tab-wrap .nav-link i {
+    font-size: 28px;
+}
+
+.services__tab-wrap .nav-item {
+    margin-bottom: 10px;
+}
+
+.services__tab-wrap .nav-link {
+    padding: 25px 55px 25px 25px;
+}
+
+.services__thumb-four img {
+    height: 300px;
+}
+
+.services__content .title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.insurance-service-form_wrap {
+    background: var(--tg-color-gray-3);
+    border: 1px solid var(--tg-border-1);
+    border-radius: 8px;
+    padding: 35px 30px 35px;
+}
+
+.insurance_service_title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.insurance-service-form_wrap form .form-grp input {
+    width: 100%;
+    background: var(--tg-color-white-default);
+    border: 1px solid var(--tg-color-gray-1);
+    border-radius: 8px;
+    padding: 14px 15px;
+    font-size: 15px;
+    color: var(--tg-theme-secondary);
+    height: 50px;
+}
+
+.insurance-service-form_wrap form .form-grp {
+    margin-bottom: 10px;
+}
+
+.services__item-four {
+    padding: 30px 30px 30px 30px;
+}
+
+.tgmenu__action ul .header-btn {
+    display: block;
+}
+
+.insurance-request__area {
+    padding: 120px;
+    position: relative;
+}
+
+
+/* ci-rate-form */
+
+.ci-rate-form {
+    background-color: #fff;
+    padding: 50px 40px 50px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    border-radius: 30px;
+}
+
+.ci-form-heading {
+    text-align: center;
+    margin: 35px 0;
+}
+
+.ci-form-btn {
+    margin-top: 20px;
+}
+
+.ci-rate-step {
+    display: none;
+}
+
+.ci-rate-step.active {
+    display: block;
+}
+
+.form-style-3 .form-select {
+    padding: 0.7rem 1rem;
+    background-color: #F4F4F4;
+    border: none;
+}
+
+.form-select:focus {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    border-color: var(--grey-500);
+}
+
+
+/* car year step */
+
+.car-step-btn-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.car-step-btn-item {
+    width: calc(25% - 30px);
+    margin: 10px 15px;
+    text-align: center;
+}
+
+.car-step-btn {
+    padding: 12px 24px;
+    font-size: 14px;
+    width: 100%;
+}
+
+
+/* car make step */
+
+.car-company-img {
+    margin-bottom: 8px;
+    height: 40px;
+}
+
+.ci-form-back-btn {
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--dark);
+    display: inline-block;
+}
+
+.ci-form-back-btn i {
+    margin-right: 5px;
+}
+
+.ci-form-back-btn:hover {
+    color: var(--primary);
+    text-decoration: none !important;
+}
+
+
+/* car model step */
+
+#carModelStep .car-step-btn-item {
+    width: calc(33.33% - 30px);
+    margin: 10px 15px;
+    text-align: center;
+}
+
+
+/* car Primary Use */
+
+#carPrimaryUseStep .car-step-btn-item {
+    width: calc(33.33% - 30px);
+    margin: 10px 15px;
+    text-align: center;
+}
+
+#carAnnualMileageStep .car-step-btn-item {
+    width: calc(50% - 30px);
+}
+
+#carDesiredCoverageStep .car-step-btn-item {
+    width: calc(50% - 30px);
+}
+
+#carOwnershipStep .car-step-btn-item {
+    width: calc(33.33% - 30px);
+}
+
+#carAnotherStep .car-step-btn-list {
+    justify-content: center;
+}
+
+.car-select-view {
+    padding-top: 20px;
+}
+
+.car-select-item {
+    width: 400px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 5px 10px;
+    text-align: left;
+    border-radius: 2px;
+    background-color: #f0f0f0;
+    border: solid 1px #d5d5d5;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.car-input-value-number {
+    margin-right: 15px;
+    font-weight: 600;
+}
+
+.car-input-value {
+    margin-bottom: 0;
+    width: 100%;
+    font-weight: 500;
+}
+
+.car-select-delete-link {
+    color: var(--dark);
+    font-weight: 500;
+    text-decoration: none !important;
+}
+
+.car-select-delete-link:hover {
+    color: var(--primary);
+}
+
+.driving-switch {
+    width: 100%;
+}
+
+.driving-switch-text {
+    margin-bottom: 5px;
+}
+
+.btn-outline-primary {
+    color: #fff;
+    background-image: none;
+    border-color: var(--tg-theme-secondary);
+}
+
+.btn-check:checked+.btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+ :not(.btn-check)+.btn:active {
+    color: #fff !important;
+    background-color: var(--tg-theme-secondary);
+    border-color: var(--primary);
+}
+
+.btn-check+.btn:hover {
+    color: #fff;
+    border-color: var(--tg-theme-secondary);
+}
+
+#ci-rate-multi-step-form .btn:after {
+    display: none;
+}
+
+#ci-rate-multi-step-form .btn {
+    justify-content: center;
+}
+
+#carMakeStep .btn {
+    flex-direction: column;
+}
+
+
+/* result page css */
+
+.insurance-result__area {
+    position: relative;
+    padding: 120px 0;
+}
+
+.rates-results-item {
+    margin-bottom: 15px;
+    border: 1px solid var(--tg-border-1);
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.rates-results-item:hover {
+    border-color: var(--primary);
+}
+
+.rates-result-item-link {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none !important;
+    min-height: 140px;
+    height: 100%;
+}
+
+.rates-result-item-number {
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-right: 1px solid var(--tg-heading-color);
+    color: var(--tg-heading-color);
+}
+
+.rates-results-item-numer-text {
+    display: block;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.rates-results-logo {
+    max-width: 130px;
+    margin-right: 15px;
+}
+
+.rates-results-content {
+    flex: 1;
+}
+
+.rates-results-title {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.rating-point-info-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.rating-point-info-item {
+    font-size: 14px;
+    color: var(--tg-body-color);
+}
+
+.rates-results-item-right {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.rates-results-btn-label {
+    font-size: 13px;
+    color: var(--primary);
+    margin-top: 5px;
+}
+
+
+/* privacy & terms page css */
+
+.page-content__area {
+    padding: 120px 0;
+    position: relative;
+}
+
+.term-title-link {
+    margin-bottom: 5px;
+}
+
+
+/* ccpa page css */
+
+.ccpa-page__area {
+    padding: 120px 0;
+    position: relative;
+}
+
+.ccpa__form-wrap {
+    background: var(--tg-color-gray-3);
+    border: 1px solid var(--tg-border-1);
+    border-radius: 8px;
+    padding: 35px 40px 40px;
+    margin-left: 30px;
+}
+
+.ccpa__form-wrap .title {
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.ccpa__form-wrap p {
+    margin-bottom: 15px;
+}
+
+.ccpa__form-wrap form .row {
+    --bs-gutter-x: 10px;
+}
+
+.ccpa__form-wrap form .form-grp {
+    margin-bottom: 10px;
+}
+
+.ccpa__form-wrap form .form-grp .form-control {
+    width: 100%;
+    background: var(--tg-color-white-default);
+    border: 1px solid var(--tg-color-gray-1);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    -ms-border-radius: 8px;
+    border-radius: 8px;
+    padding: 14px 15px;
+    font-size: 15px;
+    color: var(--tg-theme-secondary);
+    height: 50px;
+}
+
+.ccpa__form-wrap form .checkbox-grp {
+    display: flex;
+    align-items: flex-start;
+    margin: 15px 0 25px;
+}
+
+.ccpa__form-wrap .form-grp textarea {
+    width: 100%;
+    background: var(--tg-color-white-default);
+    border: 1px solid var(--tg-color-gray-1);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    -ms-border-radius: 8px;
+    border-radius: 8px;
+    padding: 14px 15px;
+    font-size: 15px;
+    color: var(--tg-theme-secondary);
+    display: block;
+    min-height: 130px;
+    max-height: 130px
+}
+
+.ccpa__form-wrap form .checkbox-grp input {
+    width: 22px;
+    margin-right: 9px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.ccpa__form-wrap form .form-grp .form-select {
+    width: 100%;
+    border: 1px solid var(--tg-color-gray-1);
+    border-radius: 8px;
+    padding: 14px 15px;
+    font-size: 15px;
+    color: var(--tg-theme-secondary);
+    height: 50px;
+}
+
+.ccpa-text {
+    margin-bottom: 40px;
+}
+
+.brand__area-seven {
+    padding: 120px 0 120px;
+}
+
+@media (max-width: 991px) {
+    .tgmenu__action {
+        margin-right: 0px;
+    }
+    .insurance-request__area {
+        padding: 100px;
+    }
+    .insurance-result__area {
+        padding: 100px 0;
+    }
+    .rates-results-logo {
+        max-width: 90px;
+    }
+    .page-content__area {
+        padding: 100px 0;
+    }
+    .ccpa-page__area {
+        padding: 100px 0;
+    }
+    .brand__area-seven {
+        padding: 100px 0 100px;
+    }
+}
+
+@media (max-width: 767px) {
+    .rates-result-item-link {
+        padding: 10px 5px;
+        min-height: 150px;
+    }
+    .rates-result-item-number {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+    }
+    .rates-results-item-numer-text {
+        font-size: 22px;
+    }
+    .rates-results-title {
+        font-size: 16px;
+    }
+    .rating-point-info-list {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .tg-header__area {
+        padding: 25px 0;
+    }
+    .tg-header__area.tg-header__area-four.sticky-menu {
+        padding: 10px 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .tg-header__area-four {
+        margin-top: 20px;
+    }
+    .tg-header__area-four .tgmenu__wrap {
+        padding: 15px 20px;
+    }
+}
+
+.color-red{
+    color:red !important; 
+}
